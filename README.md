@@ -24,10 +24,10 @@ The name lists can be extended (or shrunk), but the current list sizes were chos
 
 ## Examples
 
-$ java -jar name-grabber-0.1.0-standalone.jar nil "My name is Tim BROWN green sMITh"
+$ (-main nil "My name is Tim BROWN green sMITh")
 -> ("BROWN" "green" "sMITh")
 
-$ java -jar name-grabber-0.1.0-standalone.jar 1 "My name is barbara-Ann the Destroyer"
+$ (-main 1 "My name is barbara-Ann the Destroyer")
 -> ("barbara" "Ann")
 
 ## Limitations
