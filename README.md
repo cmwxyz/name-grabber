@@ -8,9 +8,7 @@ Download from https://github.com/cmwxyz/name-grabber.
 
 ## Usage
 
-The function takes two arguments:
-
-$ java -jar name-grabber-0.1.0-standalone.jar [name string]
+The function takes two arguments.
 
 The first argument decides whether to check for first or last names. A nil first argument will check the string for last names. A non-nil first argument will check for first names.
 
